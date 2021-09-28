@@ -1,7 +1,0 @@
-#!/bin/bash
-
-remote_link=$1
-
-git remote add origin $remote_link &&
-git branch -M main &&
-git push -u origin main
